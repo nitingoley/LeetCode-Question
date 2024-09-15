@@ -12,7 +12,7 @@ public class SplitSum {
 
     int s = 0;
     int e = 0;
-    for(int i=0; i<arr.length; i++){
+    for(int i=0; i<arr.length-1; i++){
         s = Math.max(s, arr[i]);
         e += arr[i];
     }
